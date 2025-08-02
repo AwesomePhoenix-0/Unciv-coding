@@ -78,5 +78,205 @@
 			"Stockpiled",
 			"Excluded from map editor"
 		]
-	}
+	},
+	{
+		"name": "line1A",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line1B",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line2A",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line2B",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line3A",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line3B",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line4A",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line4B",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line5A",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line5B",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line6A",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line6B",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line7A",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line7B",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line8A",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line8B",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line9A",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line9B",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line10A",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line10B",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
 ]
