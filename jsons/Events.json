@@ -1,13 +1,115 @@
 [
-   {
-        "name": "Start coding",
-        "text": "Welcome to Unciv Coding System! What do you wish to do?",
+  {
+    "name": "Start coding",
+    "text": "Welcome to the Unciv Coding System! What would you like to do?",
+    "requirements": [],
+    "choices": [
+      {
+        "text": "Create a new project",
+        "tooltip": "Start from a template or an empty project",
+        "uniques": [
+          "Opens screen [NewProjectWizard]",
+          "Sets flag [hasActiveProject]"
+        ],
         "choices": [
-            {
-                "text": "Text",
-                "uniques": [
-                          ]
-            }
+          {
+            "text": "Use template",
+            "tooltip": "Start with recommended settings and structure",
+            "uniques": [
+              "Apply preset [DefaultTemplate]",
+              "Initialize repository [git]"
+            ]
+          },
+          {
+            "text": "Empty project",
+            "tooltip": "Start with a clean slate",
+            "uniques": [
+              "Create directories [src, assets, tests]",
+              "Initialize repository [git]"
+            ]
+          }
         ]
-    }
+      },
+      {
+        "text": "Open existing project",
+        "tooltip": "Browse and open a recent or local project",
+        "uniques": [
+          "Opens screen [ProjectBrowser]"
+        ]
+      },
+      {
+        "text": "Learn",
+        "tooltip": "Read docs, tutorials, and examples",
+        "uniques": [
+          "Opens screen [DocumentationHub]"
+        ],
+        "choices": [
+          {
+            "text": "Getting started",
+            "uniques": [
+              "Open doc [getting-started]"
+            ]
+          },
+          {
+            "text": "Uniques reference",
+            "tooltip": "Browse the full list of supported uniques and parameters",
+            "uniques": [
+              "Open external link [https://yairm210.github.io/Unciv/Modders/uniques/]"
+            ]
+          },
+          {
+            "text": "Making a new Civilization",
+            "tooltip": "Step-by-step guide to build your first civ mod",
+            "uniques": [
+              "Open external link [https://yairm210.github.io/Unciv/Modders/Making-a-new-Civilization/]"
+            ]
+          },
+          {
+            "text": "Unique parameters",
+            "tooltip": "Understand parameterized uniques and stockpiled resources",
+            "uniques": [
+              "Open external link [https://yairm210.github.io/Unciv/Modders/Unique-parameters/]"
+            ]
+          },
+          {
+            "text": "Mods overview",
+            "tooltip": "How Unciv mods are structured and categorized",
+            "uniques": [
+              "Open external link [https://yairm210.github.io/Unciv/Modders/Mods/]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Settings",
+        "tooltip": "Adjust editor and environment settings",
+        "uniques": [
+          "Opens screen [Settings]"
+        ],
+        "choices": [
+          {
+            "text": "Editor",
+            "uniques": [
+              "Toggle option [autoSave]",
+              "Toggle option [lintOnSave]"
+            ]
+          },
+          {
+            "text": "Build",
+            "uniques": [
+              "Set option [optimizeLevel=2]",
+              "Set option [targetPlatform=desktop]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Exit",
+        "tooltip": "Close the coding system",
+        "uniques": [
+          "Close current screen"
+        ]
+      }
+    ]
+  }
 ]
