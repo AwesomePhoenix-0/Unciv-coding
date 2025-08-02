@@ -279,4 +279,24 @@
 			"Excluded from map editor"
 		]
 	},
+	{
+		"name": "line0A",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "line0B",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Cannot be traded",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	}
 ]
