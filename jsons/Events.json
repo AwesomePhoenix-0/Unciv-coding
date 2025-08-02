@@ -265,5 +265,19 @@
                 ]
             }
         ]
+    },
+   {
+        "name": "Clear line0",
+        "presentation": "None",
+        "choices": [
+            {
+                "uniques": [
+                   "Instantly gain [1] [line0A] <for every [-[line0A]]>",
+                    "Instantly gain [-1] [line0A] <for every [line0A]>",
+                    "Instantly gain [1] [line0B] <for every [-[line0B]]>",
+                    "Instantly gain [-1] [line0B] <for every [line0B]>"
+                ]
+            }
+        ]
     }
 ]
