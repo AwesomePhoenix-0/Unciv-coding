@@ -1,82 +1,164 @@
 [
   {
-		"name": "varA",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
-			"Stockpiled",
-			"Excluded from map editor"
-		]
-	},
+    "name": "varA",
+    "resourceType": "Strategic",
+    "icon": "Resources/varA.png",
+    "color": "#7E57C2",
+    "stockpileCap": 999,
+    "aiTradeValue": 0,
+    "description": "Special-purpose strategic variable A used by coding events and upgrades.",
+    "tags": ["internal", "coding", "hidden"],
+    "uniques": [
+      "Doesn't generate naturally",
+      "Cannot be traded",
+      "Stockpiled",
+      "Excluded from map editor",
+      "Invisible on map",
+      "Not counted for victory"
+    ]
+  },
   {
-		"name": "varB",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
-			"Stockpiled",
-			"Excluded from map editor"
-		]
-	},
+    "name": "varB",
+    "resourceType": "Strategic",
+    "icon": "Resources/varB.png",
+    "color": "#42A5F5",
+    "stockpileCap": 999,
+    "aiTradeValue": 0,
+    "description": "Strategic variable B for gating advanced coding flows.",
+    "tags": ["internal", "coding", "hidden"],
+    "uniques": [
+      "Doesn't generate naturally",
+      "Cannot be traded",
+      "Stockpiled",
+      "Excluded from map editor",
+      "Invisible on map",
+      "Not counted for victory"
+    ]
+  },
   {
-		"name": "varC",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
-			"Stockpiled",
-			"Excluded from map editor"
-		]
-	},
+    "name": "varC",
+    "resourceType": "Strategic",
+    "icon": "Resources/varC.png",
+    "color": "#26A69A",
+    "stockpileCap": 999,
+    "aiTradeValue": 0,
+    "description": "Strategic variable C, consumed by scripting actions.",
+    "tags": ["internal", "coding", "hidden"],
+    "uniques": [
+      "Doesn't generate naturally",
+      "Cannot be traded",
+      "Stockpiled",
+      "Excluded from map editor",
+      "Invisible on map",
+      "Not counted for victory"
+    ]
+  },
   {
-		"name": "varD",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
-			"Stockpiled",
-			"Excluded from map editor"
-		]
-	},
+    "name": "varD",
+    "resourceType": "Strategic",
+    "icon": "Resources/varD.png",
+    "color": "#EC407A",
+    "stockpileCap": 999,
+    "aiTradeValue": 0,
+    "description": "Strategic variable D for temporary boosts and actions.",
+    "tags": ["internal", "coding", "hidden"],
+    "uniques": [
+      "Doesn't generate naturally",
+      "Cannot be traded",
+      "Stockpiled",
+      "Excluded from map editor",
+      "Invisible on map",
+      "Not counted for victory"
+    ]
+  },
   {
-		"name": "varE",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
-			"Stockpiled",
-			"Excluded from map editor"
-		]
-	},
+    "name": "varE",
+    "resourceType": "Strategic",
+    "icon": "Resources/varE.png",
+    "color": "#FFB300",
+    "stockpileCap": 999,
+    "aiTradeValue": 0,
+    "description": "Strategic variable E used to unlock UI tools.",
+    "tags": ["internal", "coding", "hidden"],
+    "uniques": [
+      "Doesn't generate naturally",
+      "Cannot be traded",
+      "Stockpiled",
+      "Excluded from map editor",
+      "Invisible on map",
+      "Not counted for victory"
+    ]
+  },
   {
-		"name": "varF",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
-			"Stockpiled",
-			"Excluded from map editor"
-		]
-	},
+    "name": "varF",
+    "resourceType": "Strategic",
+    "icon": "Resources/varF.png",
+    "color": "#AB47BC",
+    "stockpileCap": 999,
+    "aiTradeValue": 0,
+    "description": "Strategic variable F for background automation.",
+    "tags": ["internal", "coding", "hidden"],
+    "uniques": [
+      "Doesn't generate naturally",
+      "Cannot be traded",
+      "Stockpiled",
+      "Excluded from map editor",
+      "Invisible on map",
+      "Not counted for victory"
+    ]
+  },
   {
-		"name": "varG",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
-			"Stockpiled",
-			"Excluded from map editor"
-		]
-	},
+    "name": "varG",
+    "resourceType": "Strategic",
+    "icon": "Resources/varG.png",
+    "color": "#66BB6A",
+    "stockpileCap": 999,
+    "aiTradeValue": 0,
+    "description": "Strategic variable G, rare internal currency.",
+    "tags": ["internal", "coding", "hidden"],
+    "uniques": [
+      "Doesn't generate naturally",
+      "Cannot be traded",
+      "Stockpiled",
+      "Excluded from map editor",
+      "Invisible on map",
+      "Not counted for victory"
+    ]
+  },
   {
-		"name": "varH",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Doesn't generate naturally",
-			"Cannot be traded",
-			"Stockpiled",
-			"Excluded from map editor"
-		]
-	}
+    "name": "varH",
+    "resourceType": "Strategic",
+    "icon": "Resources/varH.png",
+    "color": "#FF7043",
+    "stockpileCap": 999,
+    "aiTradeValue": 0,
+    "description": "Strategic variable H, reserved for special events.",
+    "tags": ["internal", "coding", "hidden"],
+    "uniques": [
+      "Doesn't generate naturally",
+      "Cannot be traded",
+      "Stockpiled",
+      "Excluded from map editor",
+      "Invisible on map",
+      "Not counted for victory"
+    ]
+  },
+  {
+    "name": "Coding Tokens",
+    "resourceType": "Strategic",
+    "icon": "Resources/CodingTokens.png",
+    "color": "#00BCD4",
+    "stockpileCap": 9999,
+    "aiTradeValue": 0,
+    "description": "Generic pooled currency for coding workflows.",
+    "tags": ["internal", "coding", "meta"],
+    "uniques": [
+      "Doesn't generate naturally",
+      "Cannot be traded",
+      "Stockpiled",
+      "Excluded from map editor",
+      "Invisible on map",
+      "Not counted for victory"
+    ]
+  }
 ]
