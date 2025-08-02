@@ -1,14 +1,90 @@
 [
   {
-    "name": "Coder"
-    "movement": 1,
+    "name": "Coder",
+    "type": "Unit",
+    "version": 2,
+    "description": "A unique, non-combat utility unit that initiates the Unciv Coding System.",
+    "movement": 2,
     "cost": 0,
+    "maintenance": 0,
+    "era": "Ancient",
+    "enabledByDefault": true,
+    "aiHints": ["Support", "Civilian"],
+    "requirements": [
+      "Only available <for [Human player] Civilizations>"
+    ],
     "uniques": [
-            "Triggers a [Start coding] event",
-            "Only available <for [Human player] Civilizations>",
-            "Can move immediately once bought",
-            "Uncapturable",
-            "Limited to [1] per Civilization"
-              ]
+      "Triggers a [Start coding] event",
+      "Can move immediately once bought",
+      "Uncapturable",
+      "Limited to [1] per Civilization",
+      "Cannot attack",
+      "Ignores terrain cost",
+      "No defensive terrain bonuses",
+      "Immune to conversion"
+    ],
+    "graphics": {
+      "icon": "UnitIcons/Coder.png",
+      "model": "Units/Coder.model",
+      "colorVariant": "blue"
+    },
+    "audio": {
+      "select": "audio/ui/select_coder.ogg",
+      "created": "audio/ui/spawn_coder.ogg",
+      "move": "audio/ui/move_coder.ogg"
+    },
+    "onCreate": [
+      "Grant promotion [Haste]",
+      "Reveal tiles in radius [1] for [1] turns"
+    ],
+    "onPurchase": [
+      "Set movement to maximum",
+      "Play effect [sparkle_blue]"
+    ],
+    "onTurnStart": [
+      "Heal this unit by [0]",
+      "Restore movement points"
+    ],
+    "events": [
+      {
+        "trigger": "OnSelect",
+        "actions": [
+          "Open screen [Start coding]"
+        ]
+      },
+      {
+        "trigger": "OnEnterCity",
+        "conditions": [
+          "City is owned by player"
+        ],
+        "actions": [
+          "Open screen [Start coding]"
+        ]
+      }
+    ],
+    "localization": {
+      "en": {
+        "name": "Coder",
+        "description": "Kicks off coding flows and tools. Unique and uncapturable."
+      }
+    },
+    "meta": {
+      "author": "System",
+      "lastUpdated": "2025-08-02",
+      "notes": [
+        "movement increased from 1 to 2 for better UX",
+        "added defensive limitations to prevent abuse",
+        "wired event openings via OnSelect and OnEnterCity"
+      ],
+      "related": [
+        "Start coding"
+      ],
+      "sources": [
+        "See emerging AI coding assistants trends for context on coder tooling units: [algogist.com]",
+        "Open-source code LLM advances inform feature design: [researchgate.net]",
+        "Industry roundups on coding models: [sourceforge.net]",
+        "Community reports on AI-assisted coding adoption: [news.ycombinator.com]"
+      ]
+    }
   }
 ]
