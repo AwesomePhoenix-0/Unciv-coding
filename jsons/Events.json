@@ -13,6 +13,34 @@
 
 
 
+
+   {
+         "name": "Change line",
+         "text": "What function on the line ? (you will choose the line later)"
+         "choices": [
+            {
+               "text": "add (add a fixed value to a variable)"
+               "uniques": [
+                           "Instantly gain [10] [line0A]",
+                           "Triggers a [Change line value] event"
+                        ]
+            },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
    //Clear variables/lines (set to 0)
       {
         "name": "Clear varA",
