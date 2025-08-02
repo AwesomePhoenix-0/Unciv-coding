@@ -1,1 +1,13 @@
-
+[
+   {
+        "name": "Start coding",
+        "text": "Welcome to Unciv Coding System! What do you wish to do?",
+        "choices": [
+            {
+                "text": "Text",
+                "uniques": [
+                          ]
+            }
+        ]
+    }
+]
