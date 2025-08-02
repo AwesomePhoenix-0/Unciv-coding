@@ -4,8 +4,10 @@
         "text": "Welcome to Unciv Coding System! What do you wish to do?",
         "choices": [
             {
-                "text": "Text",
-                "uniques": [
+                "text": "Change a line",
+                "uniques": [        
+                   "Triggers a [Clear line0] event",
+                   "Triggers a [Change line] event"    
                           ]
             }
         ]
