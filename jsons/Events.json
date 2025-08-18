@@ -36,14 +36,14 @@
 				"text": "add 1 to parameter",
 				"uniques": [
 					"Instantly gain [1] [line0B]",
-					"Triggers a [Changeline parameter] event"
+					"Triggers a [Change line parameter] event"
 				]
 			},
 			{
 				"text": "remove 1 to parameter",
 				"uniques": [
 					"Instantly gain [-1] [line0B]",
-					"Triggers a [Changeline parameter] event"
+					"Triggers a [Change line parameter] event"
 				]
 			},
 		]
