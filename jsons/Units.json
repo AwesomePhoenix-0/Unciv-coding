@@ -1,7 +1,7 @@
 [
   {
     "name": "Coder",
-    "type": "Type",
+    "unitType": "Type",
     "movement": 1,
     "cost": 0,
     "uniques": [
