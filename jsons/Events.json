@@ -63,7 +63,9 @@
 				"uniques": [
 					"Triggers a [Clear line1] event",
 					"Instantly gain [1] [line1A] <for every [line0A]>",
-					"Instantly gain [1] [line1B] <for every [line0B]>"
+					"Instantly gain [1] [line1B] <for every [line0B]>",
+					"Instantly gain [-1] [line1A] <for every [-[line0A]]>",
+					"Instantly gain [-1] [line1B] <for every [-[line0B]]>"
 				]
 			}
 		]
