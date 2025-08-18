@@ -1,285 +1,270 @@
 [
-   {
-        "name": "Start coding",
-        "text": "Welcome to Unciv Coding System! What do you wish to do ?",
-        "choices": [
-            {
-                "text": "Change a line",
-                "uniques": [        
-                   "Triggers a [Clear line0] event",
-                   "Triggers a [Change line] event"    
-                          ]
-            }
-        ]
-    },
+	{
+		"name": "Start coding",
+		"text": "Welcome to Unciv Coding System! What do you wish to do?",
+		"choices": [
+			{
+				"text": "Change a line",
+				"uniques": [        
+					"Triggers a [Clear line0] event",
+					"Triggers a [Change line] event"    
+				]
+			}
+		]
+	},
 
 
 
-
-   {
-         "name": "Change line",
-         "text": "What function on the line ? (you will choose the line later)"
-         "choices": [
-            {
-               "text": "add (add a fixed value to a variable)"
-               "uniques": [
-                           "Instantly gain [10] [line0A]",
-                           "Triggers a [Change line value] event"
-                        ]
-            }
-         ]
-   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-   //Clear variables/lines (set to 0)
-      {
-        "name": "Clear varA",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                    "Instantly gain [1] [varA] <for every [-[varA]]>",
-                    "Instantly gain [-1] [varA] <for every [varA]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear varB",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                    "Instantly gain [1] [varB] <for every [-[varB]]>",
-                    "Instantly gain [-1] [varB] <for every [varB]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear varC",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                    "Instantly gain [1] [varC] <for every [-[varC]]>",
-                    "Instantly gain [-1] [varC] <for every [varC]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear varD",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                    "Instantly gain [1] [varD] <for every [-[varD]]>",
-                    "Instantly gain [-1] [varD] <for every [varD]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear varE",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                    "Instantly gain [1] [varE] <for every [-[varE]]>",
-                    "Instantly gain [-1] [varE] <for every [varE]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear varF",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                    "Instantly gain [1] [varF] <for every [-[varF]]>",
-                    "Instantly gain [-1] [varF] <for every [varF]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear varG",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                    "Instantly gain [1] [varG] <for every [-[varG]]>",
-                    "Instantly gain [-1] [varG] <for every [varG]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear line1",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                    "Instantly gain [1] [line1A] <for every [-[line1A]]>",
-                    "Instantly gain [-1] [line1A] <for every [line1A]>",
-                    "Instantly gain [1] [line1B] <for every [-[line1B]]>",
-                    "Instantly gain [-1] [line1B] <for every [line1B]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear line2",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                    "Instantly gain [1] [line2A] <for every [-[line2A]]>",
-                    "Instantly gain [-1] [line2A] <for every [line2A]>",
-                    "Instantly gain [1] [line2B] <for every [-[line2B]]>",
-                    "Instantly gain [-1] [line2B] <for every [line2B]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear line3",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                   "Instantly gain [1] [line3A] <for every [-[line3A]]>",
-                    "Instantly gain [-1] [line3A] <for every [line3A]>",
-                    "Instantly gain [1] [line3B] <for every [-[line3B]]>",
-                    "Instantly gain [-1] [line3B] <for every [line3B]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear line4",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                   "Instantly gain [1] [line4A] <for every [-[line4A]]>",
-                    "Instantly gain [-1] [line4A] <for every [line4A]>",
-                    "Instantly gain [1] [line4B] <for every [-[line4B]]>",
-                    "Instantly gain [-1] [line4B] <for every [line4B]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear line5",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                   "Instantly gain [1] [line5A] <for every [-[line5A]]>",
-                    "Instantly gain [-1] [line5A] <for every [line5A]>",
-                    "Instantly gain [1] [line5B] <for every [-[line5B]]>",
-                    "Instantly gain [-1] [line5B] <for every [line5B]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear line6",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                   "Instantly gain [1] [line6A] <for every [-[line6A]]>",
-                    "Instantly gain [-1] [line6A] <for every [line6A]>",
-                    "Instantly gain [1] [line6B] <for every [-[line6B]]>",
-                    "Instantly gain [-1] [line6B] <for every [line6B]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear line7",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                   "Instantly gain [1] [line7A] <for every [-[line7A]]>",
-                    "Instantly gain [-1] [line7A] <for every [line7A]>",
-                    "Instantly gain [1] [line7B] <for every [-[line7B]]>",
-                    "Instantly gain [-1] [line7B] <for every [line7B]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear line8",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                   "Instantly gain [1] [line8A] <for every [-[line8A]]>",
-                    "Instantly gain [-1] [line8A] <for every [line8A]>",
-                    "Instantly gain [1] [line8B] <for every [-[line8B]]>",
-                    "Instantly gain [-1] [line8B] <for every [line8B]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear line9",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                   "Instantly gain [1] [line9A] <for every [-[line9A]]>",
-                    "Instantly gain [-1] [line9A] <for every [line9A]>",
-                    "Instantly gain [1] [line9B] <for every [-[line9B]]>",
-                    "Instantly gain [-1] [line9B] <for every [line9B]>"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Clear line10",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                   "Instantly gain [1] [line10A] <for every [-[line10A]]>",
-                    "Instantly gain [-1] [line10A] <for every [line10A]>",
-                    "Instantly gain [1] [line10B] <for every [-[line10B]]>",
-                    "Instantly gain [-1] [line10B] <for every [line10B]>"
-                ]
-            }
-        ]
-    },
-   {
-        "name": "Clear line0",
-        "presentation": "None",
-        "choices": [
-            {
-                "uniques": [
-                   "Instantly gain [1] [line0A] <for every [-[line0A]]>",
-                    "Instantly gain [-1] [line0A] <for every [line0A]>",
-                    "Instantly gain [1] [line0B] <for every [-[line0B]]>",
-                    "Instantly gain [-1] [line0B] <for every [line0B]>"
-                ]
-            }
-        ]
-    }
+	{
+		"name": "Change line",
+		"text": "What function on the line ? (you will choose the line later)",
+		"choices": [
+			{
+				"text": "add (add a fixed value to a variable)",
+				"uniques": [
+					"Instantly gain [10] [line0A]",
+					"Triggers a [Change line value] event"
+				]
+			}
+		]
+	},
+	//Clear variables/lines (set to 0)
+	{
+		"name": "Clear varA",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [varA] <for every [-[varA]]>",
+					"Instantly gain [-1] [varA] <for every [varA]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear varB",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [varB] <for every [-[varB]]>",
+					"Instantly gain [-1] [varB] <for every [varB]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear varC",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [varC] <for every [-[varC]]>",
+					"Instantly gain [-1] [varC] <for every [varC]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear varD",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [varD] <for every [-[varD]]>",
+					"Instantly gain [-1] [varD] <for every [varD]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear varE",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [varE] <for every [-[varE]]>",
+					"Instantly gain [-1] [varE] <for every [varE]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear varF",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [varF] <for every [-[varF]]>",
+					"Instantly gain [-1] [varF] <for every [varF]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear varG",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [varG] <for every [-[varG]]>",
+					"Instantly gain [-1] [varG] <for every [varG]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear line1",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [line1A] <for every [-[line1A]]>",
+					"Instantly gain [-1] [line1A] <for every [line1A]>",
+					"Instantly gain [1] [line1B] <for every [-[line1B]]>",
+					"Instantly gain [-1] [line1B] <for every [line1B]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear line2",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [line2A] <for every [-[line2A]]>",
+					"Instantly gain [-1] [line2A] <for every [line2A]>",
+					"Instantly gain [1] [line2B] <for every [-[line2B]]>",
+					"Instantly gain [-1] [line2B] <for every [line2B]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear line3",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [line3A] <for every [-[line3A]]>",
+					"Instantly gain [-1] [line3A] <for every [line3A]>",
+					"Instantly gain [1] [line3B] <for every [-[line3B]]>",
+					"Instantly gain [-1] [line3B] <for every [line3B]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear line4",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [line4A] <for every [-[line4A]]>",
+					"Instantly gain [-1] [line4A] <for every [line4A]>",
+					"Instantly gain [1] [line4B] <for every [-[line4B]]>",
+					"Instantly gain [-1] [line4B] <for every [line4B]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear line5",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [line5A] <for every [-[line5A]]>",
+					"Instantly gain [-1] [line5A] <for every [line5A]>",
+					"Instantly gain [1] [line5B] <for every [-[line5B]]>",
+					"Instantly gain [-1] [line5B] <for every [line5B]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear line6",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [line6A] <for every [-[line6A]]>",
+					"Instantly gain [-1] [line6A] <for every [line6A]>",
+					"Instantly gain [1] [line6B] <for every [-[line6B]]>",
+					"Instantly gain [-1] [line6B] <for every [line6B]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear line7",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [line7A] <for every [-[line7A]]>",
+					"Instantly gain [-1] [line7A] <for every [line7A]>",
+					"Instantly gain [1] [line7B] <for every [-[line7B]]>",
+					"Instantly gain [-1] [line7B] <for every [line7B]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear line8",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [line8A] <for every [-[line8A]]>",
+					"Instantly gain [-1] [line8A] <for every [line8A]>",
+					"Instantly gain [1] [line8B] <for every [-[line8B]]>",
+					"Instantly gain [-1] [line8B] <for every [line8B]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear line9",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [line9A] <for every [-[line9A]]>",
+					"Instantly gain [-1] [line9A] <for every [line9A]>",
+					"Instantly gain [1] [line9B] <for every [-[line9B]]>",
+					"Instantly gain [-1] [line9B] <for every [line9B]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear line10",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [line10A] <for every [-[line10A]]>",
+					"Instantly gain [-1] [line10A] <for every [line10A]>",
+					"Instantly gain [1] [line10B] <for every [-[line10B]]>",
+					"Instantly gain [-1] [line10B] <for every [line10B]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Clear line0",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+					"Instantly gain [1] [line0A] <for every [-[line0A]]>",
+					"Instantly gain [-1] [line0A] <for every [line0A]>",
+					"Instantly gain [1] [line0B] <for every [-[line0B]]>",
+					"Instantly gain [-1] [line0B] <for every [line0B]>"
+				]
+			}
+		]
+	}
 ]
