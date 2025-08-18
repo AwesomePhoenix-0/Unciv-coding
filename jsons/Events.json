@@ -1,7 +1,7 @@
 [
    {
         "name": "Start coding",
-        "text": "Welcome to Unciv Coding System! What do you wish to do?",
+        "text": "Welcome to Unciv Coding System! What do you wish to do ?",
         "choices": [
             {
                 "text": "Change a line",
@@ -26,9 +26,9 @@
                            "Instantly gain [10] [line0A]",
                            "Triggers a [Change line value] event"
                         ]
-            },
-
-
+            }
+         ]
+   },
 
 
 
