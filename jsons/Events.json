@@ -23,11 +23,38 @@
 				"text": "add (add a fixed value to a variable)",
 				"uniques": [
 					"Instantly gain [10] [line0A]",
-					"Triggers a [Change line value] event"
+					"Triggers a [Change line parameter] event"
 				]
 			}
 		]
 	},
+	{
+		"name": "Change line parameter",
+		"text": "What parameter for the function (e.g. if you choose the add function, with parameter 2, it will add 2 to the variable)",
+		"choices": [
+			{
+				"text": "add 1 to parameter",
+				"uniques": [
+					"Instantly gain [1] [line0B]",
+					"Triggers a [Changeline parameter] event"
+				]
+			},
+			{
+				"text": "remove 1 to parameter",
+				"uniques": [
+					"Instantly gain [-1] [line0B]",
+					"Triggers a [Changeline parameter] event"
+				]
+			},
+		]
+	},
+
+
+
+
+
+
+	
 	//Clear variables/lines (set to 0)
 	{
 		"name": "Clear varA",
