@@ -62,8 +62,8 @@
 				"text": "line 1",
 				"uniques": [
 					"Triggers a [Clear line1] event",
-					"Instantly gain [line0A] [line1A]",
-					"Instantly gain [line0B] [line1B]"
+					"Instantly gain [1] [line1A] <for every [line0A]>",
+					"Instantly gain [1] [line1B] <for every [line0B]>"
 				]
 			}
 		]
