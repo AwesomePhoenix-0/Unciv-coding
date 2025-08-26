@@ -25,6 +25,13 @@
 					"Instantly gain [10] [line0A]",
 					"Triggers a [Change line parameter] event"
 				]
+			},
+			{
+				"text": "addvar (add a variable to another variable)",
+				"uniques": [
+					"Instantly gain [20] [line0A]",
+					"Triggers a [Change line parameter] event"
+				]
 			}
 		]
 	},
@@ -36,6 +43,13 @@
 				"text": "A",
 				"uniques": [
 					"Instantly gain [1] [line0A]",
+					"Triggers a [Change line number parameter] event"
+				]
+			},
+			{
+				"text": "B",
+				"uniques": [
+					"Instantly gain [2] [line0A]",
 					"Triggers a [Change line number parameter] event"
 				]
 			}
