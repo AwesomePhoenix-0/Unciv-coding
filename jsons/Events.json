@@ -94,6 +94,16 @@
 					"Instantly gain [-1] [line1A] <for every [-[line0A]]>",
 					"Instantly gain [-1] [line1B] <for every [-[line0B]]>"
 				]
+			},
+			{
+				"text": "line 2",
+				"uniques": [
+					"Triggers a [Clear line2] event",
+					"Instantly gain [1] [line2A] <for every [line0A]>",
+					"Instantly gain [1] [line2B] <for every [line0B]>",
+					"Instantly gain [-1] [line2A] <for every [-[line0A]]>",
+					"Instantly gain [-1] [line2B] <for every [-[line0B]]>"
+				]
 			}
 		]
 	},
