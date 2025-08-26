@@ -9,12 +9,18 @@
 					"Triggers a [Clear line0] event",
 					"Triggers a [Change line] event"    
 				]
+			},
+			{
+				"text": "Run the code",
+				"uniques": [        
+					"Triggers a [Run code] event"    
+				]
 			}
 		]
 	},
 
 
-
+//Change line
 	{
 		"name": "Change line",
 		"text": "What function on the line ? (you will choose the line later)",
@@ -108,7 +114,19 @@
 		]
 	},
 
-
+	
+	//Run the code
+	{
+		"name": "Run code",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+				"Triggers a [Run line 1] event"
+				]
+			}
+		]
+	},
 
 
 
