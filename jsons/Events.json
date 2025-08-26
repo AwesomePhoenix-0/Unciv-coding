@@ -140,6 +140,7 @@
 				"Instantly gain [-1] [line0B] <for every [-[line1B]]>",
 				"Triggers a [Run add function] event <when between [10] and [19] [line0A]>",
 				"Triggers a [Run addvar function] event <when between [20] and [29] [line0A]>",
+				"Triggers a [Run line 2] event"
 				]
 			}
 		]
@@ -156,7 +157,8 @@
 				"Instantly gain [-1] [line0A] <for every [-[line2A]]>",
 				"Instantly gain [-1] [line0B] <for every [-[line2B]]>",
 				"Triggers a [Run add function] event <when between [10] and [19] [line0A]>",
-				"Triggers a [Run addvar function] event <when between [20] and [29] [line0A]>",
+				"Triggers a [Run addvar function] event <when between [20] and [29] [line0A]>"
+				//"Triggers a [Run line 3] event"
 				]
 			}
 		]
@@ -170,8 +172,7 @@
 				"Instantly gain [1] [varA] <for every [line0B]> <when between [10] and [10] [line0A]>",
 				"Instantly gain [-1] [varA] <for every [-[line0B]]> <when between [10] and [10] [line0A]>",
 				"Instantly gain [1] [varB] <for every [line0B]> <when between [11] and [11] [line0A]>",
-				"Instantly gain [-1] [varB] <for every [-[line0B]]> <when between [11] and [11] [line0A]>",
-				"Triggers a [Run line 2] event"
+				"Instantly gain [-1] [varB] <for every [-[line0B]]> <when between [11] and [11] [line0A]>"
 				]
 			}
 		]
