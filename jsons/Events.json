@@ -30,7 +30,20 @@
 	},
 	{
 		"name": "Change line parameter",
-		"text": "What parameter for the function (e.g. if you choose the add function, with parameter 2, it will add 2 to the variable)",
+		"text": "What parameter on the line ? (e.g. if you choose the add function, with parameter A, it will add a value to the variable A)",
+		"choices": [
+			{
+				"text": "A",
+				"uniques": [
+					"Instantly gain [1] [line0A]",
+					"Triggers a [Change line number parameter] event"
+				]
+			}
+		]
+	},
+	{
+		"name": "Change line number parameter",
+		"text": "What number parameter for the function (e.g. if you choose the add function, with parameter 2, it will add 2 to the variable)",
 		"choices": [
 			{
 				"text": "add 1 to parameter",
