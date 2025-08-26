@@ -8,8 +8,7 @@
             "Triggers a [Start coding] event",
             "Only available <for [Human player] Civilizations>",
             "Can move immediately once bought",
-            "Uncapturable",
-            "Limited to [1] per Civilization"
+            "Uncapturable"
               ]
   }
 ]
