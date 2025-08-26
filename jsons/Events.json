@@ -48,14 +48,14 @@
 			{
 				"text": "A",
 				"uniques": [
-					"Instantly gain [1] [line0A]",
+					"Instantly gain [0] [line0A]",
 					"Triggers a [Change line number parameter] event"
 				]
 			},
 			{
 				"text": "B",
 				"uniques": [
-					"Instantly gain [2] [line0A]",
+					"Instantly gain [1] [line0A]",
 					"Triggers a [Change line number parameter] event"
 				]
 			}
@@ -127,7 +127,55 @@
 			}
 		]
 	},
-
+	{
+		"name": "Run line 1",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+				"Triggers a [Clear line0] event",
+				"Instantly gain [1] [line0A] <for every [line1A]>",
+				"Instantly gain [1] [line0B] <for every [line1B]>",
+				"Instantly gain [-1] [line0A] <for every [-[line1A]]>",
+				"Instantly gain [-1] [line0B] <for every [-[line1B]]>",
+				"Triggers a [Run add function] event <when between [10] and [19] [line0A]>",
+				"Triggers a [Run addvar function] event <when between [20] and [29] [line0A]>",
+				]
+			}
+		]
+	},
+	{
+		"name": "Run line 2",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+				"Triggers a [Clear line0] event",
+				"Instantly gain [1] [line0A] <for every [line2A]>",
+				"Instantly gain [1] [line0B] <for every [line2B]>",
+				"Instantly gain [-1] [line0A] <for every [-[line2A]]>",
+				"Instantly gain [-1] [line0B] <for every [-[line2B]]>",
+				"Triggers a [Run add function] event <when between [10] and [19] [line0A]>",
+				"Triggers a [Run addvar function] event <when between [20] and [29] [line0A]>",
+				]
+			}
+		]
+	},
+	{
+		"name": "Run add function",
+		"presentation": "None",
+		"choices": [
+			{
+				"uniques": [
+				"Instantly gain [1] [varA] <for every [line0B]> <when between [10] and [10] [line0A]>",
+				"Instantly gain [-1] [varA] <for every [-[line0B]]> <when between [10] and [10] [line0A]>",
+				"Instantly gain [1] [varB] <for every [line0B]> <when between [11] and [11] [line0A]>",
+				"Instantly gain [-1] [varB] <for every [-[line0B]]> <when between [11] and [11] [line0A]>",
+				"Triggers a [Run line 2] event"
+				]
+			}
+		]
+	},
 
 
 	
