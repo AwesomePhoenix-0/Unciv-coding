@@ -151,7 +151,7 @@
 		"choices": [
 			{
 				"uniques": [
-				"Triggers a [Clear line0] event",
+				//"Triggers a [Clear line0] event",
 				"Instantly gain [1] [line0A] <for every [line2A]>",
 				"Instantly gain [1] [line0B] <for every [line2B]>",
 				"Instantly gain [-1] [line0A] <for every [-[line2A]]>",
